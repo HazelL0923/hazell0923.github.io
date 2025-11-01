@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://hazell0923.github.io"
 
 artstation:  # Artstation
-  username: l-x # change to your GitHub username
+  username: hazell0923 # change to your GitHub username
 
 bilibili:  # bilibili
   username: 4978651 # change to your Twitter username
@@ -34,11 +34,11 @@ bilibili:  # bilibili
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: LiangXi
+  email: 976181845@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://space.bilibili.com/4978651 # change to your Bilibili【已改成bilibili】 homepage
+    #- https://space.bilibili.com/4978651 # change to your Twitter【已改成bilibili】 homepage
     - https://artstation.com/l-x # change to your GitHub【已改成Artstation】 homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
