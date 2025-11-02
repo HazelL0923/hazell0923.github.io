@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'G:\Mypage\04\hazell0923.github.io\assets\lib\avatar\apple-touch-icon-128x128.png'
+avatar: apple-touch-icon-128x128.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
