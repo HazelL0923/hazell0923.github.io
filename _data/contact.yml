@@ -3,7 +3,7 @@
 - type: artstation
   icon: "fa-brands fa-artstation" #"fa-brands " #fab fa-github
 
-- type: twitter  #11
+- type: bilibili  #11
   icon: "fa-brands fa-bilibili" #"fa-brands fa-bilibili" #fa-x-twitter
 
 - type: email
@@ -31,9 +31,9 @@
   icon: 'fa-brands fa-artstation'
   url: 'https://www.artstation.com/l-x'                   # Fill with your Bluesky profile link
 #
-# - type: reddit
-#   icon: 'fa-brands fa-reddit'
-#   url: ''                   # Fill with your Reddit profile link
+- type: bilibili
+  icon: 'fa-brands fa-bilibili'
+  url: 'https://space.bilibili.com/4978651'                   # Fill with your Reddit profile link
 #
 # - type: threads
 #   icon: 'fa-brands fa-threads'
