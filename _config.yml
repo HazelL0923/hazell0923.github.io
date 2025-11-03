@@ -25,19 +25,11 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://hazell0923.github.io"
 
-# 添加 Artstation 配置
-artstation:
-  username: l-x 
+github:
+  username: github_username # change to your GitHub username
 
-# 添加 Bilibili 配置
-bilibili:
-  username: 4978651
-
-#github:
-  #username: github_username # change to your GitHub username
-
-#twitter:
-  #username: twitter_username # change to your Twitter username
+twitter:
+  username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -46,12 +38,8 @@ social:
   email: 976181845@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    #- { icon: "fas fa-link", link: "https://space.bilibili.com/4978651" } # change to your Twitter【已改成bilibili】 homepage
-    #- { icon: "fas fa-paint-brush", link: "https://artstation.com/l-x" } # change to your GitHub【已改成Artstation】 homepage
-    # Bilibili (通用链接图标)
-    - { icon: "fas fa-link", link: "https://space.bilibili.com/4978651" } 
-    # Artstation (通用画笔图标)
-    - { icon: "fas fa-paint-brush", link: "https://artstation.com/l-x" }
+    - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
