@@ -46,8 +46,8 @@ social:
   email: 976181845@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - { icon: "fa-brands fa-bilibili", link: "https://space.bilibili.com/4978651" } # change to your Twitter【已改成bilibili】 homepage
-    - { icon: "fa-brands fa-artstation", link: "https://artstation.com/l-x" } # change to your GitHub【已改成Artstation】 homepage
+    - { icon: "fas fa-link", link: "https://space.bilibili.com/4978651" } # change to your Twitter【已改成bilibili】 homepage
+    - { icon: "fas fa-paint-brush", link: "https://artstation.com/l-x" } # change to your GitHub【已改成Artstation】 homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
