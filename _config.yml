@@ -38,7 +38,7 @@ social:
   email: 976181845@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    #- https://space.bilibili.com/4978651 # change to your Twitter【已改成bilibili】 homepage
+    - https://space.bilibili.com/4978651 # change to your Twitter【已改成bilibili】 homepage
     - https://artstation.com/l-x # change to your GitHub【已改成Artstation】 homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username

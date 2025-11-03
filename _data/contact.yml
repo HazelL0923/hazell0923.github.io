@@ -1,10 +1,10 @@
 #  The contact options.
 
-- type: artstation
-  icon: "fa-brands fa-artstation" #"fab fa-github"
+- type: github
+  icon: "fab fa-github" #"fa-brands fa-artstation" #
 
-- type: bilibili  #11
-  icon: "fa-brands fa-bilibili" #"fa-brands fa-x-twitter"
+- type: twitter  #11
+  icon: "fa-brands fa-x-twitter" #"fa-brands fa-bilibili" #
 
 - type: email
   icon: "fas fa-envelope"
