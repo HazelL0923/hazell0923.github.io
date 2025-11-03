@@ -1,7 +1,7 @@
 #  The contact options.
 
 - type: github
-  icon: "fab fa-artstation" #"fa-brands " #fa-github
+  icon: "fa-brands fa-artstation" #"fa-brands " #fab fa-github
 
 - type: twitter  #11
   icon: "fa-brands fa-bilibili" #"fa-brands fa-bilibili" #fa-x-twitter
