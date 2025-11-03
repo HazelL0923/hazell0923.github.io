@@ -4,7 +4,7 @@
   icon: "fab fa-github" #"fa-brands fa-artstation" #
 
 - type: twitter  #11
-  icon: "fa-brands fa-x-twitter" #"fa-brands fa-bilibili" #
+  icon: "fa-brands fa-bilibili" #"fa-brands fa-bilibili" #fa-x-twitter
 
 - type: email
   icon: "fas fa-envelope"
