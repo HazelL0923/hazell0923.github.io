@@ -27,9 +27,9 @@
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
 #
-# - type: bluesky
-#   icon: 'fa-brands fa-bluesky'
-#   url: ''                   # Fill with your Bluesky profile link
+- type: artstation
+  icon: 'fa-brands fa-artstation'
+  url: 'https://www.artstation.com/l-x'                   # Fill with your Bluesky profile link
 #
 # - type: reddit
 #   icon: 'fa-brands fa-reddit'
