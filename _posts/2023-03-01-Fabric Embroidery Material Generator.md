@@ -1,5 +1,5 @@
 ---
-title: PCG中式木桥
+title: 布面刺绣程序化材质
 description: >-
   Get started with Chirpy basics in this comprehensive overview.
   You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.
@@ -13,7 +13,7 @@ media_subpath:
 
 ## 布面刺绣程序化材质
 
-![Desktop View](../_posts/20230301/01_2K.png){: width="972" height="589" }
+![Desktop View](../_posts/20230301/01_1K.png){: width="972" height="589" }
 _Full screen width and center alignment_
 
 When creating your site repository, you have two options depending on your needs:
