@@ -3,7 +3,7 @@ title: PCG中式木桥
 description: >-
   Get started with Chirpy basics in this comprehensive overview.
   You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.
-author: LiangXi
+author: cotes
 date: 2021-02-01 20:55:00 +0800
 categories: [PCG]
 tags: [PCG, Houdini]
