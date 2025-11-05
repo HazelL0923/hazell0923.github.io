@@ -8,12 +8,12 @@ date: 2023-03-01 18:55:00 +0800
 categories: [SubstanceDesigner]
 tags: [SubstanceDesigner, Material]
 pin: true
-media_subpath: '/posts/20230301'
+media_subpath: 
 ---
 
 ## 布面刺绣程序化材质
 
-![Desktop View](/01_2K.png){: width="972" height="589" }
+![Desktop View](G:/Mypage/04/hazell0923.github.io/_posts/20230301/01_2K.png){: width="972" height="589" }
 _Full screen width and center alignment_
 
 When creating your site repository, you have two options depending on your needs:
