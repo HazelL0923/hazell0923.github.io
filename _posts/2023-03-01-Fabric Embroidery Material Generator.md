@@ -13,7 +13,7 @@ media_subpath: '/posts/20230301'
 
 ## 布面刺绣程序化材质
 
-![Desktop View](/posts/20230301/01_2K.png){: width="972" height="589" }
+![Desktop View](/01_2K.png){: width="972" height="589" }
 _Full screen width and center alignment_
 
 When creating your site repository, you have two options depending on your needs:
