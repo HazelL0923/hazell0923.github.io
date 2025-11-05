@@ -8,7 +8,7 @@ date: 2023-03-01 18:55:00 +0800
 categories: [SubstanceDesigner]
 tags: [SubstanceDesigner, Material]
 pin: true
-media_subpath: '/posts/20180809'
+media_subpath: '/posts/20230301'
 ---
 
 ## 布面刺绣程序化材质
