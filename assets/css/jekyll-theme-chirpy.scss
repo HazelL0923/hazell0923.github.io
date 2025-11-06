@@ -9,3 +9,43 @@
 ';
 
 /* append your custom style below */
+
+/* --- 自定义文章卡片背景样式 (根据您的 HTML 结构定制) --- */
+
+/* 目标：整个文章卡片链接容器 */
+.post-preview {
+  /* 强制使用您自定义的图片 */
+  background: url('/assets/img/20230301/01_1K.png') no-repeat center center; 
+  
+  /* 调整图片以覆盖整个背景区域 */
+  background-size: cover; 
+  
+  /* 确保链接是块级或内联块级，以正确包含背景 */
+  display: flex;
+  
+  /* 增加卡片圆角，以匹配主题样式（可选，如果默认圆角不满意）*/
+  border-radius: 0.5rem; 
+  
+  /* ---------------------------------------------------- */
+  /* 确保文字可读性 - 针对卡片内的标题、描述和元数据 */
+  /* ---------------------------------------------------- */
+  
+  /* 覆盖卡片主体，添加半透明遮罩以增强文字对比度 */
+  .card-body {
+    position: relative; /* 允许使用 z-index */
+    
+    /* 建议：在卡片内容上加一个半透明的白色背景，让文字更清晰 */
+    background: rgba(255, 255, 255, 0.9); /* 90% 不透明的白色背景 */
+    
+    /* 或者，如果您想让图片露出来，并让文字变白： */
+    /*
+    color: white; // 标题和文字颜色变白
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); // 添加文字阴影
+    */
+  }
+}
+
+/* 移除卡片之间的默认边框（可选，当使用图片背景时） */
+.list-unstyled > .post-preview {
+  border-bottom: none !important;
+}
