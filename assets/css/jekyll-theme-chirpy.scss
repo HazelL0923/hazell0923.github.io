@@ -35,7 +35,41 @@
     /* 尤其对于图片颜色接近文字颜色的区域有帮助 */
     
     .card-title, .card-text {
-      text-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* 柔和的黑色阴影 */
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.4); /* 柔和的黑色阴影 */
+    }
+  }
+}
+
+/* --- 优化文章卡片非标题文字颜色 --- */
+
+.post-preview {
+  .card-body {
+    /* 1. 摘要/描述文字 (card-text) */
+    .card-text {
+      /* 将颜色改为浅灰色，例如 #6c757d 是 Bootstrap 的 secondary 颜色 */
+      color: #6c757d; 
+      /* 或者，直接降低其不透明度 */
+      /* opacity: 0.8; */
+    }
+
+    /* 2. 文章元信息 (日期、分类等) */
+    .post-meta {
+      /* 降低整个元信息区域的不透明度，使其变淡 */
+      opacity: 0.7; 
+
+      /* 如果需要，也可以单独设置颜色 */
+      /* color: #999; */
+      
+      /* 确保元信息内的图标颜色也被改变 */
+      i {
+        color: inherit; /* 继承父元素（.post-meta）的颜色 */
+      }
+    }
+    
+    /* 3. 标题（可选：强调标题） */
+    .card-title {
+        /* 确保标题保持清晰的黑色或您的主题颜色 */
+        color: var(--body-color, #212529); 
     }
   }
 }
