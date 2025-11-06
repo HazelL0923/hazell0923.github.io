@@ -47,7 +47,7 @@
     /* 1. 摘要/描述文字 (card-text) */
     .card-text {
       /* 将颜色改为浅灰色，例如 #6c757d 是 Bootstrap 的 secondary 颜色 */
-      color: #e0e0e0; 
+      color: #ffffff; 
       /* 或者，直接降低其不透明度 */
       /* opacity: 0.8; */
     }
@@ -55,7 +55,7 @@
     /* 2. 文章元信息 (日期、分类等) */
     .post-meta {
       /* 降低整个元信息区域的不透明度，使其变淡 */
-      opacity: 0.9; 
+      opacity: 1.0; 
 
       /* 如果需要，也可以单独设置颜色 */
       /* color: #999; */
