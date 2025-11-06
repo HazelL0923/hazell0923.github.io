@@ -9,3 +9,33 @@
 ';
 
 /* append your custom style below */
+
+/* --- 优化自定义背景图下的文字可读性 --- */
+
+.post-preview {
+  /* 确保整个卡片处于定位上下文中，方便子元素使用绝对定位 */
+  position: relative; 
+  
+  /* 隐藏卡片默认的背景色（虽然我们在内联样式中设置了透明，但安全起见） */
+  background-color: transparent !important; 
+
+  /* 针对卡片主体内容区域（包含标题、摘要、元数据） */
+  .card-body {
+    position: relative;
+    z-index: 2; /* 确保内容在遮罩之上 */
+    
+    /* 1. 添加半透明白色背景 */
+    /* 使用 90% 不透明度的白色背景，能有效分离文字和背景图 */
+    background-color: rgba(0, 0, 0, 0.2);
+    
+    /* 确保整个 card-body 区域覆盖整个卡片的高度 */
+    min-height: 100%;
+    
+    /* 2. 可选：为标题和文字添加轻微的阴影（Text Shadow） */
+    /* 尤其对于图片颜色接近文字颜色的区域有帮助 */
+    
+    .card-title, .card-text {
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* 柔和的黑色阴影 */
+    }
+  }
+}
