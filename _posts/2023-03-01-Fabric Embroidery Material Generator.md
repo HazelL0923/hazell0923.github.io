@@ -13,7 +13,7 @@ pin: true
 
 
 
-![Main img](/assets/img/20230301/01_1K.png){: width="972" height="589" }
+![Main img](/assets/img/20230301/Select a file name for output files_001.mp4){: width="972" height="589" }
 _Full screen width and center alignment_
 
 When creating your site repository, you have two options depending on your needs:
