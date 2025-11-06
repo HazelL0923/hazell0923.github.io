@@ -9,7 +9,7 @@ categories: [SubstanceDesigner]
 tags: [SubstanceDesigner, Material]
 pin: true
 #img_path:  /_posts/20230301/
-post_card_image: /assets/img/card_bg/2023-0301.jpg
+post_card_image: /assets/img/card_bg/2023-0301.png
 ---
 
 
