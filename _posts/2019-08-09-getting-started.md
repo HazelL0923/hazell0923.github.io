@@ -8,7 +8,7 @@ date: 2021-02-01 20:55:00 +0800
 categories: [PCG]
 tags: [PCG, Houdini]
 pin: true
-media_subpath: '/posts/20180809'
+post_card_image: /assets/img/card_bg/2021-0201.jpg
 ---
 
 ## Creating a Site Repository
