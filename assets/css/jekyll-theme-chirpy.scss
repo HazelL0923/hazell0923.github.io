@@ -47,14 +47,14 @@
 .post-preview {
   .card-body {
     /* 1. 摘要/描述文字 (card-text) */
-    .card-text {
+    .card-text, .post-meta{
       /* 使用更具体的选择器路径 */
-      color: white !important; /* 强制覆盖主题默认颜色 */
+      color: rgb(203, 203, 203) !important; /* 强制覆盖主题默认颜色 */
       opacity: 1.0;            /* 确保完全不透明 */
-      
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
       /* 同时确保卡片摘要内的段落标签也被设置为白色 */
       p {
-        color: white !important;
+        color: rgb(218, 218, 218) !important;
       }
     }
   }
