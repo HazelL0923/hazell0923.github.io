@@ -50,9 +50,9 @@
     /* 1. 摘要/描述文字 (card-text) */
     .card-text {
       /* 确保摘要文本颜色正确 */
-      color: rgb(255, 186, 186) !important;
+      color: rgb(176, 176, 176) !important;
       opacity: 1.0 !important;
-      text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
       
       p {
         color: rgb(195, 195, 195) !important;  /*简介部分文字颜色*/
@@ -62,18 +62,18 @@
     /* 2. 文章元信息 (post-meta) */
     .post-meta {
       /* 设置容器的默认浅色 */
-      color: rgb(195, 195, 195) !important;
+      color: rgb(176, 176, 176) !important;
       opacity: 1.0 !important;
       
       /* 核心修正：强制覆盖时间、分类文本和图标的颜色 */
       time, span.categories, i {
         /* 强制应用浅色 */
-        color: rgb(195, 195, 195) !important;
+        color: rgb(176, 176, 176) !important;
       }
       
       /* 针对分类（Categories）的链接，如果它被渲染为 <a> 标签 */
       .categories a {
-        color: rgb(195, 195, 195) !important;
+        color: rgb(176, 176, 176) !important;
       }
     }
 
