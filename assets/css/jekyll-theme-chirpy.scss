@@ -35,6 +35,7 @@
     /* 尤其对于图片颜色接近文字颜色的区域有帮助 */
     
     .card-title, .card-text {
+      color: rgb(250, 250, 250)
       text-shadow: 0 0 4px rgba(0, 0, 0, 0.4); /* 柔和的黑色阴影 */
     }
   }
@@ -55,7 +56,7 @@
       text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
       
       p {
-        color: rgb(195, 195, 195) !important;
+        color: rgb(195, 195, 195) !important;  /*简介部分文字颜色*/
       }
     }
 
