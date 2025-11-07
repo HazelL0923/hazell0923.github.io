@@ -46,16 +46,42 @@
 
 .post-preview {
   .card-body {
-    /* 1. 摘要/描述文字 (card-text) */
-    .card-text, .post-meta{
-      /* 使用更具体的选择器路径 */
-      color: rgb(203, 203, 203) !important; /* 强制覆盖主题默认颜色 */
-      opacity: 1.0;            /* 确保完全不透明 */
+
+    /* 统一设置摘要和元信息容器的颜色 */
+    .card-text, .post-meta {
+      color: rgb(203, 203, 203) !important; 
+      opacity: 1.0 !important; /* 确保不透明度生效 */
       text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-      /* 同时确保卡片摘要内的段落标签也被设置为白色 */
-      p {
-        color: rgb(218, 218, 218) !important;
+    }
+
+    /* 确保摘要内的 <p> 标签被覆盖 */
+    .card-text p {
+      color: rgb(218, 218, 218) !important;
+    }
+    
+    /* 核心修正：针对 post-meta 内部的图标和分类文本 */
+    .post-meta {
+      
+      /* 针对所有文本和图标（i 标签）*/
+      * { 
+        color: inherit !important; /* 强制继承父元素设置的浅色 */
       }
+      
+      /* 确保图标（i 标签）颜色被覆盖 */
+      i {
+        color: rgb(203, 203, 203) !important; 
+      }
+      
+      /* 确保时间/分类文本（time/span 标签）颜色被覆盖 */
+      time, span {
+        color: inherit !important; 
+      }
+    }
+    
+    /* 确保标题保持深色（防止被影响）*/
+    .card-title {
+        color: var(--body-color, #212529) !important; 
+        opacity: 1.0 !important;
     }
   }
 }
