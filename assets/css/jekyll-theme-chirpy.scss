@@ -46,39 +46,38 @@
 
 .post-preview {
   .card-body {
-
-    /* 统一设置摘要和元信息容器的颜色 */
-    .card-text, .post-meta {
-      color: rgb(203, 203, 203) !important; 
-      opacity: 1.0 !important; /* 确保不透明度生效 */
+    
+    /* 1. 摘要/描述文字 (card-text) */
+    .card-text {
+      /* 确保摘要文本颜色正确 */
+      color: rgb(203, 203, 203) !important;
+      opacity: 1.0 !important;
       text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+      
+      p {
+        color: rgb(218, 218, 218) !important;
+      }
     }
 
-    /* 确保摘要内的 <p> 标签被覆盖 */
-    .card-text p {
-      color: rgb(218, 218, 218) !important;
-    }
-    
-    /* 核心修正：针对 post-meta 内部的图标和分类文本 */
+    /* 2. 文章元信息 (post-meta) */
     .post-meta {
+      /* 设置容器的默认浅色 */
+      color: rgb(203, 203, 203) !important;
+      opacity: 1.0 !important;
       
-      /* 针对所有文本和图标（i 标签）*/
-      * { 
-        color: inherit !important; /* 强制继承父元素设置的浅色 */
+      /* 核心修正：强制覆盖时间、分类文本和图标的颜色 */
+      time, span.categories, i {
+        /* 强制应用浅色 */
+        color: rgb(203, 203, 203) !important;
       }
       
-      /* 确保图标（i 标签）颜色被覆盖 */
-      i {
-        color: rgb(203, 203, 203) !important; 
-      }
-      
-      /* 确保时间/分类文本（time/span 标签）颜色被覆盖 */
-      time, span {
-        color: inherit !important; 
+      /* 针对分类（Categories）的链接，如果它被渲染为 <a> 标签 */
+      .categories a {
+        color: rgb(203, 203, 203) !important;
       }
     }
-    
-    /* 确保标题保持深色（防止被影响）*/
+
+    /* 3. 确保标题保持深色 */
     .card-title {
         color: var(--body-color, #212529) !important; 
         opacity: 1.0 !important;
