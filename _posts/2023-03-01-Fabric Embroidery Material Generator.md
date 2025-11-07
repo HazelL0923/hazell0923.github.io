@@ -14,7 +14,10 @@ post_card_image: /assets/img/card_bg/2023-0301.png
 
 
 
-![Main img](/assets/img/20230301/Select a file name for output files_001.mp4){: width="972" height="589" }
+<video width="100%" height="auto" controls muted autoplay loop>
+  <source src="/assets/img/20230301/Select a file name for output files_001.mp4" type="video/mp4">
+  您的浏览器不支持 HTML5 视频播放。
+</video>
 _Full screen width and center alignment_
 
 When creating your site repository, you have two options depending on your needs:
