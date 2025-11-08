@@ -56,7 +56,7 @@ Type3.最常见的密集针脚刺绣:
 为刺绣部分设置更多参数以生成更丰富的效果：如刺绣针脚长度、刺绣部分粗糙度和金属度、刺绣部分颜色等。
 ![workflow](/assets/img/20230301/SD_workflow.png)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_All workflow nodes_
-材质使用演示： [Material Preview in BiliBili](https://www.bilibili.com/video/BV1XDgvzhE2m/?spm_id_from=333.1387.upload.video_card.click&vd_source=4172e98a5ea7a742809137ec6ad74e83).
+材质使用演示： [Material Preview in BiliBili](https://www.bilibili.com/video/BV1XDgvzhE2m/?spm_id_from=333.1387.upload.video_card.click&vd_source=4172e98a5ea7a742809137ec6ad74e83)
 
 ### 效果展示
 ![FinalOutput](/assets/img/20230301/01_2K.png)
