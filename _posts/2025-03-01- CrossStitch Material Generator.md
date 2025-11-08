@@ -54,7 +54,8 @@ post_card_image: /assets/img/card_bg/2025-0301.png
 ### 混合与输出
 最后，将三个部分的灰度图用Max mode依次Blend，注意灰度落差，①②③部分应该由深到浅，最后得到正确的Normal map。
 ![Blend](/assets/img/20250301/Workflow.png)
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_Blend and FinalOutput _
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;_Blend and FinalOutput_
+
 材质使用演示： [Material Preview in BiliBili](https://www.bilibili.com/video/BV17pgiz6Eyc/?spm_id_from=333.1387.upload.video_card.click&vd_source=4172e98a5ea7a742809137ec6ad74e83)
 
 ### 效果展示
