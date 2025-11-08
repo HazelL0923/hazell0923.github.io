@@ -63,11 +63,27 @@
       }
     }
 
-    /* 3. 确保标题保持深色 */
+/* --- 最终修正：强制标题在所有模式下为纯白色 --- */
+
+.post-preview {
+  .card-body {
+    /* ... 保持其他 card-text 和 post-meta 样式不变 ... */
+    
+    /* 1. 强制在默认（亮）模式下为白色 */
     .card-title {
         color: #FFFFFF !important; 
+        text-shadow: none !important;
         opacity: 1.0 !important;
+    }
+
+    /* 2. 强制在暗模式（Dark Mode）下也为白色 */
+    /* 目标是带有 data-theme="dark" 属性的 body 或 html 元素 */
+    body[data-theme="dark"] & .card-title,
+    html[data-theme="dark"] & .card-title {
+        color: #FFFFFF !important;
         text-shadow: none !important;
     }
+  }
+}
   }
 }
