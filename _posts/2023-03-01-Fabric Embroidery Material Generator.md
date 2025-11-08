@@ -2,6 +2,7 @@
 title: 布面刺绣程序化材质
 description: >-
   此材质的目标效果为基于输入的纹理素材一键式生成布面刺绣。
+  
 author: cotes
 date: 2023-03-01 18:55:00 +0800
 categories: [SubstanceDesigner]
