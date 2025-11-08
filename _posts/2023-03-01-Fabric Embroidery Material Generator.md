@@ -1,12 +1,11 @@
 ---
 title: 布面刺绣程序化材质
 description: >-
-  Get started with Chirpy basics in this comprehensive overview.
-  You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.
+  此材质的目标效果为基于输入的纹理素材一键式生成布面刺绣。
 author: cotes
 date: 2023-03-01 18:55:00 +0800
 categories: [SubstanceDesigner]
-tags: [SubstanceDesigner, Material]
+tags: [SubstanceDesigner, Materials]
 pin: true
 #img_path:  /_posts/20230301/
 post_card_image: /assets/img/card_bg/2023-0301.png
@@ -16,15 +15,18 @@ post_card_image: /assets/img/card_bg/2023-0301.png
 
 <video width="100%" height="auto" controls muted autoplay loop>
   <source src="/assets/img/20230301/Select a file name for output files_001.mp4" type="video/mp4">
-  您的浏览器不支持 HTML5 视频播放。
+
 </video>
-_Full screen width and center alignment_
 
-When creating your site repository, you have two options depending on your needs:
 
-### Option 1. Using the Starter (Recommended)
+制作思路大致拆解为以下两个部分：①背景布面纹理；②程序化生成三种刺绣图案。
 
-This approach simplifies upgrades, isolates unnecessary files, and is perfect for users who want to focus on writing with minimal configuration.
+### 背景布面纹理的制作
+
+制作了毛毡、亚麻布面、牛仔布面与丝绸四种背景布面纹理，在Pixel Processer节点内部用函数控制布面纹理tilling值，并联动暴露的background_type参数控制输出的纹理类型。
+
+![background workflow](/assets/img/20230301/Background.png)
+###### &emsp;&emsp;&emsp;&emsp; _背景纹理部分节点_
 
 1. Sign in to GitHub and navigate to the [**starter**][starter].
 2. Click the <kbd>Use this template</kbd> button and then select <kbd>Create a new repository</kbd>.
