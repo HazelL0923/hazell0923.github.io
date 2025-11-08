@@ -1,7 +1,7 @@
 ---
 title: 十字绣程序化材质
 description: >-
-  此材质的目标效果为基于输入的纹理素材一键式生成布面十字绣。&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  此材质的目标效果为基于输入的纹理素材一键式生成布面十字绣。&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
 author: cotes
 date: 2025-03-01 15:00:00 +0800
