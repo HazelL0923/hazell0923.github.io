@@ -65,6 +65,10 @@
 
 /* --- 最终修正：强制标题在所有模式下为纯白色 --- */
 
+
+  }
+}
+
 .post-preview {
   .card-body {
     /* ... 保持其他 card-text 和 post-meta 样式不变 ... */
@@ -83,7 +87,5 @@
         color: #FFFFFF !important;
         text-shadow: none !important;
     }
-  }
-}
   }
 }
