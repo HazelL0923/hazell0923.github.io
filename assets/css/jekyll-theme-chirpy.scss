@@ -69,23 +69,34 @@
   }
 }
 
+/* ... 第一个 .post-preview 块 (用于背景阴影) ... */
+
+/* ... 第二个 .post-preview 块 (用于所有文字颜色) ... */
 .post-preview {
   .card-body {
-    /* ... 保持其他 card-text 和 post-meta 样式不变 ... */
-    
-    /* 1. 强制在默认（亮）模式下为白色 */
-    .card-title {
-        color: #FFFFFF !important; 
-        text-shadow: none !important;
-        opacity: 1.0 !important;
-    }
+    /* ... 1. 摘要/描述文字 (card-text) ... */
+    /* ... 2. 文章元信息 (post-meta) ... */
 
-    /* 2. 强制在暗模式（Dark Mode）下也为白色 */
-    /* 目标是带有 data-theme="dark" 属性的 body 或 html 元素 */
-    body[data-theme="dark"] & .card-title,
-    html[data-theme="dark"] & .card-title {
-        color: #FFFFFF !important;
-        text-shadow: none !important;
+    /* ！！错误发生在这里！！ */
+    /* --- 最终修正：强制标题在所有模式下为纯白色 --- */
+    .post-preview { // <-- 这个 .post-preview 不应该在这里
+      .card-body {
+        /* ... 样式 ... */
+        
+        /* 1. 强制在默认（亮）模式下为白色 */
+        .card-title {
+          /* ... */
+        }
+
+        /* 2. 强制在暗模式（Dark Mode）下也为白色 */
+        /* 由于嵌套错误，& 符号无法正确引用父级 */
+        body[data-theme="dark"] & .card-title,
+        html[data-theme="dark"] & .card-title {
+          /* ... */
+        }
+      }
     }
+    /* ！！结束错误嵌套！！ */
+
   }
 }
