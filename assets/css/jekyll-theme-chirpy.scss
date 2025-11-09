@@ -19,3 +19,51 @@
 
 /* append your custom style below */
 
+.post-preview {
+  /* 确保定位上下文和背景透明 */
+  position: relative; 
+  background-color: transparent !important; 
+
+  .card-body {
+    position: relative;
+    z-index: 2;
+
+    /* 1. 半透明背景遮罩：您选择的黑色半透明背景 */
+    background-color: rgba(0, 0, 0, 0.2);
+    min-height: 100%;
+
+    /* 2. 基础强制白色（防备样式没有继承变量时） */
+    .card-title {
+        color: #FFFFFF !important; 
+        opacity: 1.0 !important;
+        text-shadow: none !important;
+    }
+
+    /* 3. 摘要/描述文字 (card-text) */
+    .card-text {
+      /* 摘要容器和主文字颜色 */
+      color: rgb(255, 255, 255) !important; 
+      opacity: 1.0 !important;
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.6); 
+      
+      p {
+        /* 段落内的文字颜色（您选择的浅灰色）*/
+        color: rgb(195, 195, 195) !important; 
+        text-shadow: none !important;
+      }
+    }
+
+    /* 4. 文章元信息 (post-meta) */
+    .post-meta {
+      /* 容器的默认颜色和不透明度 */
+      color: rgb(176, 176, 176) !important;
+      opacity: 1.0 !important;
+      
+      /* 核心修正：强制覆盖时间、分类文本、图标和链接的颜色 */
+      time, span.categories, i, a {
+        color: rgb(176, 176, 176) !important;
+        text-shadow: none !important; 
+      }
+    }
+  }
+}
