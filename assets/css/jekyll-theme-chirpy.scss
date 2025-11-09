@@ -8,4 +8,12 @@
 {%- endif -%}
 ';
 
+--heading-color: #FFFFFF;
+
+/* 暗模式下强制标题颜色 */
+[data-theme="dark"] {
+    --heading-color: #FFFFFF;
+}
+
 /* append your custom style below */
+
