@@ -8,7 +8,9 @@
 {%- endif -%}
 ';
 
---heading-color: #FFFFFF;
+:root {
+    --heading-color: #FFFFFF;
+}
 
 /* 暗模式下强制标题颜色 */
 [data-theme="dark"] {
