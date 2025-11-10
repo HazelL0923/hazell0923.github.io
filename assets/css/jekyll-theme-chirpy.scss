@@ -28,9 +28,20 @@
     position: relative;
     z-index: 2;
 
-    /* 1. 半透明背景遮罩：您选择的黑色半透明背景 */
-    background-color: rgba(0, 0, 0, 0.2);
+    /* 1. 默认/亮模式 (Light Mode) 遮罩颜色 */
+    /* Light Mode 时，标题是深色 (可能是黑色)，我们使用深色遮罩来确保可读性 */
+    background-color: rgba(255, 255, 255, 0.6); /* 您指定的亮模式颜色：不透明度 60% 的深色 */
     min-height: 100%;
+
+    /* 2. 暗模式 (Dark Mode) 遮罩颜色 */
+    /* Dark Mode 时，标题是浅色，我们使用浅色/更透明的遮罩 */
+    /* 我们使用 SCSS 的 & 语法来判断顶层元素 */
+    :global(body[data-theme="dark"]) & {
+      background-color: rgba(0, 0, 0, 0.2); /* 您指定的暗模式颜色：不透明度 20% 的深色 */
+    }
+    :global(html[data-theme="dark"]) & {
+      background-color: rgba(0, 0, 0, 0.2); /* 兼容 html 上的 data-theme */
+    }
 
     /* 2. 基础强制白色（防备样式没有继承变量时） */
     .card-title {
