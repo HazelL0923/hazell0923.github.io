@@ -1,7 +1,7 @@
 ---
 title: PCG中式木桥
 description: 使用Houdini制作的PCG中式木桥，目标效果为可直接由创建的线条生成中式木桥，且木桥组件可替换、数量可自定义，能实时调整木桥倾度以及长度等。
-author: LiangXi
+author: cotes
 date: 2019-08-08 11:33:00 +0800
 categories: [PCG]
 tags: [PCG, Houdini]

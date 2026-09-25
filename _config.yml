@@ -14,12 +14,12 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Hazel-L # the main title
+title: LiangXi # the main title
 
 tagline: 一名渲染向游戏技术美术。 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  LX's blog.
+  LX's Blog.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
