@@ -1,7 +1,8 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
+- type: artstation
+  icon: "fab fa-artstation"
+  url: "https://www.artstation.com/l-x"
 
 - type: bilibili
   icon: "fa-brands fa-bilibili"
